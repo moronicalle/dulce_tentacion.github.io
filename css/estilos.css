@@ -81,33 +81,43 @@ ul {
     z-index: 1000;
 }
 
-/* Ajustes para el logo y slogan */
 .logo-text {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    text-decoration: none;
-}
-
-.brand-info {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.nombre-brand {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     color: #b5651d;
-    line-height: 1.1;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.slogan-brand {
-    font-size: 11px;
-    color: #8c7365;
-    font-style: italic;
-    font-weight: 400;
-    margin-top: 2px;
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    font-weight: 600;
+    color: #5c3d2e;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.menu li a.active, .menu li a:hover {
+    background-color: #e29578;
+    color: #ffffff;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 24px;
+    color: #5c3d2e;
+    cursor: pointer;
+    display: none;
 }
 /* =========================================================
    SLIDER / BANNER CON CENTRADO CORREGIDO
